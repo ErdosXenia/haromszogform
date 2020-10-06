@@ -56,6 +56,15 @@ namespace haromszogek
             return aoldal + boldal + coldal;
         }
 
+        public Haromszog(string sor)
+        {
+            string[] adatok = sor.Split(';');
+            aoldal = Convert.ToDouble(adatok[0]);
+            boldal = Convert.ToDouble(adatok[1]);
+            coldal = Convert.ToDouble(adatok[2]);
+            Szerk();
+        }
+
         public Haromszog(double aoldal, double boldal, double coldal)
         {
             this.aoldal = aoldal;

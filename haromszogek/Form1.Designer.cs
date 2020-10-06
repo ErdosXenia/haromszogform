@@ -140,16 +140,17 @@
             // 
             // lbHaromszogLista
             // 
+            this.lbHaromszogLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lbHaromszogLista.FormattingEnabled = true;
-            this.lbHaromszogLista.ItemHeight = 24;
+            this.lbHaromszogLista.ItemHeight = 20;
             this.lbHaromszogLista.Location = new System.Drawing.Point(374, 51);
             this.lbHaromszogLista.Name = "lbHaromszogLista";
-            this.lbHaromszogLista.Size = new System.Drawing.Size(257, 316);
+            this.lbHaromszogLista.Size = new System.Drawing.Size(237, 304);
             this.lbHaromszogLista.TabIndex = 10;
             // 
             // btnTorol
             // 
-            this.btnTorol.Location = new System.Drawing.Point(453, 9);
+            this.btnTorol.Location = new System.Drawing.Point(444, 12);
             this.btnTorol.Name = "btnTorol";
             this.btnTorol.Size = new System.Drawing.Size(92, 33);
             this.btnTorol.TabIndex = 11;
@@ -169,7 +170,6 @@
             // 
             // ofdMegnyitas
             // 
-            this.ofdMegnyitas.FileName = "openFileDialog1";
             this.ofdMegnyitas.Filter = "Text files | *.txt";
             this.ofdMegnyitas.InitialDirectory = "C:\\Users\\nyb15ERDŐSX\\source\\repos\\haromszogek\\haromszogek\\bin\\Debug";
             // 
@@ -177,7 +177,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(643, 379);
+            this.ClientSize = new System.Drawing.Size(623, 379);
             this.Controls.Add(this.btnFajlbol);
             this.Controls.Add(this.btnTorol);
             this.Controls.Add(this.lbHaromszogLista);
